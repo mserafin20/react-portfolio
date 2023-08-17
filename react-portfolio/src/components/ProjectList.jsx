@@ -1,35 +1,48 @@
+import NBAFunFacts from '../assets/NBA-fun-facts.png';
+import PassGenerator from '../assets/password-generator.png';
+import CarFix from '../assets/Project 2 - CarFix.png';
+import NoteTaker from '../assets/express.js-note-taker.png';
+import ReadmeGen from '../assets/Readme-Generator.png';
+
+
 export default function ProjectList(){
     const projs = [
       {
-        name: "Proj 1",
-        link: "https://www.google.com/"
+        id: 1,
+        name: "NBA Fun Facts",
+        link: "https://yc937.github.io/FunNBAFacts/",
+        image: NBAFunFacts
       },
       {
-        name: "Proj 2",
-        link: "https://www.google.com/"
+        id: 2,
+        name: "Carfix Blog",
+        link: "https://app-carfix-blog-4a5a8cc800a2.herokuapp.com/",
+        image: CarFix
       },
       {
-        name: "Proj 3",
-        link: "https://www.google.com/"
+        id: 3,
+        name: "Password Generator",
+        link: "https://mserafin20.github.io/password-generator/",
+        image: PassGenerator
       },
       {
-        name: "Proj 4",
-        link: "https://www.google.com/"
+        id: 4,
+        name: "Express Note Taker",
+        link: "https://express-note-taker-1.herokuapp.com/",
+        image: NoteTaker
       },
       {
-        name: "Proj 5",
-        link: "https://www.google.com/"
-      },
-      {
-        name: "Proj 6",
-        link: "https://www.google.com/"
+        id: 5,
+        name: "README Generator",
+        link: "https://github.com/mserafin20/readme-generator",
+        image: ReadmeGen
       }
     ]
   
     return (
       <section>
-        <h2>Projects</h2>
-        <ul>
+        <h1>Projects</h1>
+        <div className='card-container'>
         {
           projs.map((project, i) => (
             <li key = {i}>
@@ -39,7 +52,7 @@ export default function ProjectList(){
             </li>
           ))
         }
-        </ul>
+        </div>
       </section>
     )
   };
