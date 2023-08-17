@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+.nav-bar {
+    opacity: 75%;
+    background-color: white;
+}
+
+.my-name {
+    font-weight: bold;
+}
+
+.primary-container {
+    display: flex;
+}
+
+.tabs {
+    font-weight: bold;
+}

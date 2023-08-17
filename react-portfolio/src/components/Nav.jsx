@@ -11,7 +11,7 @@ export default function Navigation() {
 
 
     return (
-        // <header>
+        <header>
             <Navbar expand='lg' className='navbar'>
                 <Container>
                     <Navbar.Brand className='my-name'>Michael Serafin</Navbar.Brand>
@@ -42,6 +42,6 @@ export default function Navigation() {
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
-        // </header>
+        </header>
     )
 };
