@@ -1,8 +1,9 @@
-import React from 'react';
+// import React from 'react';
 import Container from 'react-bootstrap/Container';
-import { Link, useLocation } from 'react-router-dom';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import { Link, useLocation } from 'react-router-dom';
+
 import '../styles/Nav.css';
 
 export default function Navigation() {
@@ -10,7 +11,7 @@ export default function Navigation() {
 
 
     return (
-        <header>
+        // <header>
             <Navbar expand='lg' className='navbar'>
                 <Container>
                     <Navbar.Brand className='my-name'>Michael Serafin</Navbar.Brand>
@@ -41,6 +42,6 @@ export default function Navigation() {
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
-        </header>
+        // </header>
     )
 };
