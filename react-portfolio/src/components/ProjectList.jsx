@@ -46,7 +46,7 @@ export default function ProjectList(){
         {
           projs.map((project, i) => (
             <li key = {i}>
-              <a href={project.link}>
+              <a className='links' href={project.link}>
                 {project.name}
               </a>
             </li>
