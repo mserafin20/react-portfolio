@@ -3,6 +3,7 @@ import PassGenerator from '../assets/password-generator.png';
 import CarFix from '../assets/Project 2 - CarFix.png';
 import NoteTaker from '../assets/express.js-note-taker.png';
 import ReadmeGen from '../assets/Readme-Generator.png';
+import Project3 from '../assets/Project3.png';
 
 
 export default function ProjectList(){
@@ -21,18 +22,24 @@ export default function ProjectList(){
       },
       {
         id: 3,
+        name: "Sports Spotter",
+        link: "https://sports-spotter-ebb34b0a9d19.herokuapp.com/",
+        image: Project3
+      },
+      {
+        id: 4,
         name: "Password Generator",
         link: "https://mserafin20.github.io/password-generator/",
         image: PassGenerator
       },
       {
-        id: 4,
+        id: 5,
         name: "Express Note Taker",
         link: "https://express-note-taker-1.herokuapp.com/",
         image: NoteTaker
       },
       {
-        id: 5,
+        id: 6,
         name: "README Generator",
         link: "https://github.com/mserafin20/readme-generator",
         image: ReadmeGen
