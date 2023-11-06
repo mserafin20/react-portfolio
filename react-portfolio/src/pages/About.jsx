@@ -1,4 +1,6 @@
-import '../styles/About.css';
+// import '../styles/About.css';
+import React from 'react';
+import profilepic from '../assets/Portfolio_Photo.png';
 
 export default function About() {
     return (
@@ -6,6 +8,7 @@ export default function About() {
 
             <article className='profile'>
                 <h1>About Me</h1>
+                <img src={profilepic} alt='portfolioPic' className='portfolio-pic' style={{border: "2px solid #E2BF36"}} />
             </article>
 
             <section>
